@@ -1,0 +1,193 @@
+:root {
+    --color-title: #212121;
+    --color-text: #757575;
+ }
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/*--------------------header--------------------*/
+.header-logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: calc(31 / 26);
+        letter-spacing: 0.03em;
+        color: #000000;
+}
+.logo-part {
+    color: #2196F3;
+}
+.header-link,
+.header-tel,
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+}
+.header-tel,
+.header-mail {
+    color: #757575;
+}
+.header-link {
+    color: #212121;
+}
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: #2196F3;
+}
+/*--------------------hero-ind-------------------*/
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: calc(60 / 44);
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+.hero-btn {
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: calc(30 / 16);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+/*--------------------benefits-ind-------------------*/
+.benefits-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-title);
+}
+.benefits-text {
+        font-size: 14px;
+        line-height: calc(24 / 14);
+        letter-spacing: 0.03em;
+        color: var(--color-text);
+}
+/*--------------------bisness-ind-------------------*/
+.title-second-ind {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42 / 36);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--color-title);
+}
+/*--------------------team-ind--------------------*/
+.team-item-title,
+.team-item-text {
+        font-size: 16px;
+        line-height: calc(19 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.team-item-title {
+        font-weight: 500;
+        color: var(--color-title);
+}
+.team-item-text {
+         color: var(--color-text);
+}
+/*--------------------portfolio-------------------*/
+.portfolio-btn {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.portfolio-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36 / 18);
+        letter-spacing: 0.06em;
+        color: var(--color-title);
+}
+.portfolio-text {
+        font-size: 16px;
+        line-height: calc(30 / 16);
+        letter-spacing: 0.03em;
+        color: var(--color-text);
+}
+/*--------------------footer--------------------*/
+.footer {
+    background-color: #2F303A;
+}
+.footer-address {
+    font-style: normal;
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-link,
+.footer-tel,
+.footer-mail {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+}
+
+.footer-tel,
+.footer-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link {
+    color: #FFFFFF;
+}
