@@ -181,7 +181,7 @@ body {
 }
 
 /*--------------------benefits-ind-------------------*/
-.benefits {
+.benefits>.container {
     padding-top: var(--section-indent);
     
 }
@@ -209,7 +209,7 @@ body {
         color: var(--color-text);
 }
 /*--------------------bisness-ind-------------------*/
-.bisness {
+.bisness>.container {
         padding-top: var(--section-indent);
         padding-bottom: var(--section-indent);
 }
@@ -232,10 +232,15 @@ body {
 }
 /*--------------------team-ind--------------------*/
 .team {
-        padding-top: var(--section-indent);
-        padding-bottom: var(--section-indent);
+        
         background: #F5F4FA;
         
+}
+.team>.container {
+    padding-top: var(--section-indent);
+    padding-bottom: var(--section-indent);
+    
+
 }
 .team-title {
         margin-bottom: 50px;
@@ -271,7 +276,7 @@ body {
     padding-bottom: 30px;
 }
 /*--------------------portfolio-------------------*/
-.portfolio {
+.portfolio>.container {
     margin-top: var(--section-indent);
     margin-bottom: var(--section-indent);
 }
