@@ -132,12 +132,13 @@ body {
 .hero {
     
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-content {
     
-    padding-top: 200px;
-    padding-bottom: 200px;
+    
     align-items: center;
 }
 .hero-title {
@@ -179,7 +180,7 @@ body {
 }
 
 /*--------------------benefits-ind-------------------*/
-.benefits>.container {
+.benefits {
     padding-top: var(--section-indent);
     
 }
@@ -207,7 +208,7 @@ body {
         color: var(--color-text);
 }
 /*--------------------bisness-ind-------------------*/
-.bisness>.container {
+.bisness {
         padding-top: var(--section-indent);
         padding-bottom: var(--section-indent);
 }
@@ -231,10 +232,7 @@ body {
 /*--------------------team-ind--------------------*/
 .team {
         
-        background: #F5F4FA;
-        
-}
-.team>.container {
+    background: #F5F4FA;
     padding-top: var(--section-indent);
     padding-bottom: var(--section-indent);
     
@@ -244,12 +242,10 @@ body {
         margin-bottom: 50px;
 }
 .team-item-title {
-    margin-top: 30px;
+    
     margin-bottom: 10px;
 }
-.team-item-text {
-    margin-bottom: 30px;
-}
+
 .team-item-title,
 .team-item-text {
         font-size: 16px;
@@ -274,9 +270,9 @@ body {
     padding-bottom: 30px;
 }
 /*--------------------portfolio-------------------*/
-.portfolio>.container {
-    margin-top: var(--section-indent);
-    margin-bottom: var(--section-indent);
+.portfolio {
+    padding-top: var(--section-indent);
+    padding-bottom: var(--section-indent);
 }
 .portfolio-btn {
         font-family: inherit;
@@ -286,6 +282,7 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        padding: 6px 22px;
         
 }
 .portfolio-btn:hover,
@@ -332,9 +329,6 @@ body {
 /*--------------------footer--------------------*/
 .footer {
     background-color: #2F303A;
-    
-}
-.footer>.container {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -371,4 +365,7 @@ body {
 }
 .footer-list {
     margin-top: 20px;
+}
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
